@@ -4,7 +4,7 @@ import About from "./pages/About";
 import Projects from "./data/Projects";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
-import { Analytics } from "@vercel/analytics/next";
+
 function App() {
   return (
     <Router>
@@ -15,7 +15,6 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Analytics />
     </Router>
   );
 }
