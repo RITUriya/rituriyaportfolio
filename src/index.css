@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Poppins", sans-serif;
+  @apply bg-gradient-to-br from-[#e0f7fa] via-white to-[#f1f8ff] text-gray-800;
+}
