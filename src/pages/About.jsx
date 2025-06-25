@@ -1,4 +1,15 @@
 import profileImage from "../assets/profile.jpg";
+import {
+  About_Me_Verbase1,
+  About_Me_Verbase2,
+  About_Me_Verbase3,
+  About_Me_Verbase4,
+  About_Me_Verbase5,
+  About_Me_Verbase5D,
+  About_Me_Verbase5A,
+  About_Me_Verbase5B,
+  About_Me_Verbase5C,
+} from "../const/pageText";
 
 const About = () => {
   return (
@@ -11,18 +22,17 @@ const About = () => {
         />
         <div>
           <h2 className="text-3xl font-bold text-blue-700 mb-4">About Me</h2>
-          <p className="mb-4">
-            Hi 👋 I’m Ritu — a frontend developer who transitioned from testing
-            to full-stack development.
-          </p>
-          <p className="mb-4">
-            I work with React, Tailwind, Spring Boot, and Azure DevOps. I enjoy
-            building polished, accessible, and scalable UI experiences.
-          </p>
-          <p className="mb-4">
-            In my free time, I’m either cycling 🚴, experimenting with perfumes
-            🌸, or nurturing my balcony garden 🌿.
-          </p>
+          <p className="mb-4">{About_Me_Verbase1}</p>
+          <p className="mb-4">{About_Me_Verbase2}</p>
+          <p className="mb-4">{About_Me_Verbase3}</p>
+          <p className="mb-4">{About_Me_Verbase4}</p>
+          <p className="mb-4">{About_Me_Verbase5}</p>
+          <ul>
+            <li>{About_Me_Verbase5A}</li>
+            <li>{About_Me_Verbase5B}</li>
+            <li>{About_Me_Verbase5C}</li>
+            <li>{About_Me_Verbase5D}</li>
+          </ul>
         </div>
       </div>
     </main>

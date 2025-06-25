@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Download } from "lucide-react";
+import { Home_Verbase } from "../const/pageText";
 
 export default function Home() {
   return (
@@ -20,11 +21,9 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.6 }}
-          className="text-xl text-gray-700 mb-6"
+          className="text-l text-gray-700 mb-6"
         >
-          I design and build modern, accessible UIs with React, TailwindCSS, and
-          Java backends. Passionate about performance, user experience, and
-          frontend engineering.
+          {Home_Verbase}
         </motion.p>
 
         <motion.div

@@ -1,13 +1,14 @@
 import React from "react";
 import { demoProjects } from "./projectlist";
 import ProjectCard from "../components/ProjectCard";
+import { Project_Repo } from "../const/pageText";
 
 const Projects = () => {
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#f8f9fa] via-[#e3f2fd] to-[#f1f8ff] text-gray-900 px-4 md:px-12 py-12">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-extrabold text-center text-blue-700 mb-12">
-          My Projects
+          {Project_Repo}
         </h1>
         <div className="grid gap-8 md:grid-cols-2">
           {demoProjects.map((project) => (

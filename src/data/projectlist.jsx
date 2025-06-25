@@ -1,35 +1,25 @@
 // Fallback demo data if projects array is empty
 export const demoProjects = [
   {
-    title: "Shopsphere",
-    description:
-      "A full-stack eCommerce app using React, Redux, Tailwind, and Spring Boot with secure authentication and internationalization.",
-    tags: ["React", "Redux", "Tailwind", "Spring Boot", "i18n"],
-    liveUrl: "https://shopsphere.example.com",
-    codeUrl: "https://github.com/yourname/shopsphere",
-  },
-  {
     title: "Portfolio Website",
     description:
-      "This portfolio is built with Vite, React, and TailwindCSS featuring routing, animations, and mobile responsiveness.",
-    tags: ["React", "Tailwind", "Framer Motion"],
-    liveUrl: "https://yourname.dev",
-    codeUrl: "https://github.com/yourname/portfolio",
+      "This portfolio is built using Vite, React, and TailwindCSS, with features like smooth routing, animations, and full mobile responsiveness for an optimal user experience across devices. It reflects my approach to clean code, modular design, and performance optimization.",
+    tags: ["React", "Tailwind", "Framer Motion", "Vercel"],
+    liveUrl: "https://rituriya.vercel.app/",
+    codeUrl: "https://github.com/RITUriya/rituriyaportfolio",
   },
   {
-    title: "Blog Platform",
-    description:
-      "A markdown-based blog built with Next.js, Tailwind, and Prisma. Supports tags, categories, and comments.",
-    tags: ["Next.js", "Tailwind", "Prisma"],
-    liveUrl: "",
-    codeUrl: "https://github.com/yourname/devblog",
+    title: "Restaurant",
+    description: `This portfolio is built with Next.js and styled using TailwindCSS, showcasing smooth routing, scroll-based animations, and full mobile responsiveness. Deployed on Vercel, the site benefits from fast edge delivery, server-side rendering, and optimized performance — aligning with modern web development standards.`,
+    tags: ["React", "Nextjs", "Tailwind", "Contencontentful CMS", "Vercel"],
+    liveUrl: "https://restaurant-amber-eight.vercel.app/",
+    codeUrl: "https://github.com/RITUriya/restaurant",
   },
   {
-    title: "Plant Tracker",
+    title: "LeetCode Problem Solving",
     description:
-      "A fun React app to track watering schedules and sunlight for houseplants, built for indoor gardeners.",
-    tags: ["React", "LocalStorage", "UI Design"],
-    liveUrl: "https://plant-tracker.vercel.app",
+      "A growing collection of algorithmic solutions to LeetCode problems. Includes problem descriptions, approach explanations, and optimized code.",
+    tags: ["JavaScript", "Java", "TypeScript"],
     codeUrl: "https://github.com/yourname/plant-tracker",
   },
 ];
