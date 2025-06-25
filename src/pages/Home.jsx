@@ -16,7 +16,6 @@ export default function Home() {
         >
           Hello, I’m Ritu ✨
         </motion.h1>
-
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -25,7 +24,6 @@ export default function Home() {
         >
           {Home_Verbase}
         </motion.p>
-
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -45,7 +43,6 @@ export default function Home() {
             About Me
           </Link>
         </motion.div>
-
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -59,6 +56,52 @@ export default function Home() {
           >
             <Download className="w-5 h-5" /> Download My CV
           </a>
+        </motion.div>{" "}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.8, duration: 0.6 }}
+          className="text-center md:text-left"
+        >
+          <div className="mb-auto mt-10 flex flex-col md:flex-row gap-10 text-center">
+            <div>
+              <p className="text-lg font-medium">
+                {" "}
+                <a
+                  href="mailto:rituriya093@gmail.com"
+                  className="text-blue-600 hover:underline"
+                >
+                  📧 Email
+                </a>
+              </p>
+            </div>
+            <div>
+              <p className="text-lg font-medium">
+                {" "}
+                <a
+                  href="https://www.linkedin.com/in/ritur06/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  💼 LinkedIn
+                </a>
+              </p>
+            </div>
+            <div>
+              <p className="text-lg font-medium">
+                {" "}
+                <a
+                  href="https://github.com/RITUriya"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  👨‍💻 GitHub
+                </a>
+              </p>
+            </div>
+          </div>
         </motion.div>
       </div>
     </main>

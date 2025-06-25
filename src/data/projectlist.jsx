@@ -4,7 +4,7 @@ export const demoProjects = [
     title: "Portfolio Website",
     description:
       "This portfolio is built using Vite, React, and TailwindCSS, with features like smooth routing, animations, and full mobile responsiveness for an optimal user experience across devices. It reflects my approach to clean code, modular design, and performance optimization.",
-    tags: ["React", "Tailwind", "Framer Motion", "Vercel"],
+    tags: ["React", "Tailwind", "Framer Motion", "Vite", "Vercel"],
     liveUrl: "https://rituriya.vercel.app/",
     codeUrl: "https://github.com/RITUriya/rituriyaportfolio",
   },
@@ -14,6 +14,13 @@ export const demoProjects = [
     tags: ["React", "Nextjs", "Tailwind", "Contencontentful CMS", "Vercel"],
     liveUrl: "https://restaurant-amber-eight.vercel.app/",
     codeUrl: "https://github.com/RITUriya/restaurant",
+  },
+  {
+    title: "AI Chatbot with Ollama",
+    description:
+      "An AI chatbot built using React for the frontend and Node.js for the backend, styled with TailwindCSS. Powered by Ollama to run LLMs like Llama 3 directly on your machine, delivering real-time, private, and fast AI interactions.",
+    tags: ["React", "Node.js", "TailwindCSS", "Ollama"],
+    codeUrl: "https://github.com/RITUriya/ollamaChatbot",
   },
   {
     title: "LeetCode Problem Solving",
