@@ -1,4 +1,5 @@
 //home
+export const Home_Name = " Hello, I’m Ritu ✨";
 export const Home_Verbase =
   "I design and build modern, accessible, and performant user interfaces using React, Next.js, and TailwindCSS, backed by scalable Node.js and Java architectures. With a strong focus on user experience, frontend engineering, and web performance, I craft intuitive interfaces that not only look great but work seamlessly across devices and users. I’m passionate about turning complex problems into elegant solutions through clean, maintainable code and thoughtful design.";
 

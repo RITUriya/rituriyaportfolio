@@ -2,25 +2,25 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Download } from "lucide-react";
-import { Home_Verbase } from "../const/pageText";
+import { Home_Verbase, Home_Name } from "../const/pageText";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-[#f2f6ff] via-white to-[#e0f7fa] px-6 py-20 text-center md:text-left flex items-center">
+    <main className="min-h-screen bg-gradient-to-br from-[#f2f6ff] via-white to-[#e0f7fa] px-6 py-20 text-center md:text-left flex items-center home-container">
       <div className="max-w-4xl mx-auto">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-5xl font-extrabold text-blue-700 mb-4"
+          className="home-title text-5xl font-extrabold text-blue-700 mb-4"
         >
-          Hello, I’m Ritu ✨
+          {Home_Name}
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.6 }}
-          className="text-l text-gray-700 mb-6"
+          className="text-l text-gray-700 mb-6 home-description"
         >
           {Home_Verbase}
         </motion.p>

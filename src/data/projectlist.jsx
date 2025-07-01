@@ -27,6 +27,21 @@ export const demoProjects = [
     description:
       "A growing collection of algorithmic solutions to LeetCode problems. Includes problem descriptions, approach explanations, and optimized code.",
     tags: ["JavaScript", "Java", "TypeScript"],
-    codeUrl: "https://github.com/yourname/plant-tracker",
+    codeUrl: "https://github.com/RITUriya/frontendInterviewDs",
+  },
+  {
+    title: "React Mini Projects Collection",
+    description:
+      "A growing collection of mini React projects demonstrating commonly used patterns and interview-relevant concepts. Includes features like light/dark theme toggling, dynamic list rendering and deletion, optimal folder structures, and component best practices.",
+    tags: [
+      "React",
+      "JavaScript",
+      "Hooks",
+      "Context API",
+      "Redux",
+      "Vite",
+      "TailwindCSS",
+    ],
+    codeUrl: "https://github.com/RITUriya/reactProjectsInterview/",
   },
 ];

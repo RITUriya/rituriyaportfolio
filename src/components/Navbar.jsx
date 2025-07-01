@@ -2,18 +2,18 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
+    <nav className="navbar text-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold text-blue-700">
+        <Link to="/" className="text-2xl font-bold text-white">
           Ritu Riya
         </Link>
-        <div className="space-x-4">
+        <div className="space-x-4 navbar-links">
           {["/", "/about", "/projects", "/contact"].map((path, i) => (
             <NavLink
               key={i}
               to={path}
               className={({ isActive }) =>
-                `text-gray-700 hover:text-blue-700 ${
+                `text-gray-700 hover:text-blue-700 navbar-link  ${
                   isActive ? "font-semibold text-blue-700" : ""
                 }`
               }

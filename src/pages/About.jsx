@@ -13,21 +13,23 @@ import {
 
 const About = () => {
   return (
-    <main className="min-h-screen px-6 py-12">
+    <main className="min-h-screen px-6 py-12 about-container">
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <img
           src={profileImage}
           alt="Ritu"
           className="rounded-2xl shadow-xl w-full"
         />
-        <div>
-          <h2 className="text-3xl font-bold text-blue-700 mb-4">About Me</h2>
-          <p className="mb-4">{About_Me_Verbase1}</p>
-          <p className="mb-4">{About_Me_Verbase2}</p>
-          <p className="mb-4">{About_Me_Verbase3}</p>
-          <p className="mb-4">{About_Me_Verbase4}</p>
-          <p className="mb-4">{About_Me_Verbase5}</p>
-          <ul>
+        <div className="about-container ">
+          <h2 className=" m-8 text-xl font-bold text-blue-700 mb-4 about-title ">
+            About Me
+          </h2>
+          <p className="mb-4 about-description ">{About_Me_Verbase1}</p>
+          <p className="mb-4 about-description ">{About_Me_Verbase2}</p>
+          <p className="mb-4 about-description">{About_Me_Verbase3}</p>
+          <p className="mb-4 about-description">{About_Me_Verbase4}</p>
+          <p className="mb-4 about-description">{About_Me_Verbase5}</p>
+          <ul className="about-description">
             <li>{About_Me_Verbase5A}</li>
             <li>{About_Me_Verbase5B}</li>
             <li>{About_Me_Verbase5C}</li>

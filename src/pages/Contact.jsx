@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <main className="min-h-screen px-6 py-12 bg-gradient-to-tr from-white via-blue-50 to-sky-100">
-      <div className="max-w-3xl mx-auto text-center">
+    <main className="min-h-screen px-6 py-12 bg-gradient-to-tr from-white via-blue-50 to-sky-100 contact-container">
+      <div className="max-w-3xl mx-auto text-center contact-title">
         <h1 className="text-4xl font-bold text-blue-700 mb-6">Get in Touch</h1>
         <p className="mb-4 text-gray-700">
           Let's collaborate, build, or chat! ✉️
@@ -48,7 +48,7 @@ const Contact = () => {
         <form
           action="https://formspree.io/f/YOUR_FORM_ID"
           method="POST"
-          className="grid gap-6 text-left"
+          className="grid gap-6 text-left contact-description"
         >
           <input
             type="text"
