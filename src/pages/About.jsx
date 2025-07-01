@@ -1,4 +1,5 @@
 import profileImage from "../assets/profile.jpg";
+import { useLocation } from "react-router-dom";
 import {
   About_Me_Verbase1,
   About_Me_Verbase2,
@@ -10,8 +11,15 @@ import {
   About_Me_Verbase5B,
   About_Me_Verbase5C,
 } from "../const/pageText";
+import { useEffect } from "react";
 
 const About = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    // Scroll to the top whenever the location changes
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <main className="min-h-screen px-6 py-12 about-container">
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">

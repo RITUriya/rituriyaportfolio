@@ -244,11 +244,19 @@ body {
   }
 }
 .navbar {
-  background: linear-gradient(135deg, #1e293b, #1e293b);
+  background: linear-gradient(135deg, #2b3a56, #1e293b);
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   position: sticky;
   color: white;
   top: 0;
+  z-index: 1000;
+}
+.footer {
+  background: linear-gradient(135deg, #2b3a56, #1e293b);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  position: sticky;
+  color: white;
+  bottom: 0;
   z-index: 1000;
 }
 

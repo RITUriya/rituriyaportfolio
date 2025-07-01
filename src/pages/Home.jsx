@@ -1,10 +1,17 @@
 import React from "react";
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Download } from "lucide-react";
 import { Home_Verbase, Home_Name } from "../const/pageText";
+import { useLocation } from "react-router-dom";
 
 export default function Home() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#f2f6ff] via-white to-[#e0f7fa] px-6 py-20 text-center md:text-left flex items-center home-container">
       <div className="max-w-4xl mx-auto">
@@ -37,8 +44,8 @@ export default function Home() {
             View Projects
           </Link>
           <Link
-            to="/about"
-            className="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-xl font-semibold"
+            to="/projects"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl shadow"
           >
             About Me
           </Link>
@@ -61,7 +68,7 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.6 }}
-          className="text-center md:text-left"
+          className="text-center text-blue-600  md:text-left"
         >
           <div className="mb-auto mt-10 flex flex-col md:flex-row gap-10 text-center">
             <div>
