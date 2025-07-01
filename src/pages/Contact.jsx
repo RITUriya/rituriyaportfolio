@@ -1,4 +1,11 @@
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 const Contact = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <main className="min-h-screen px-6 py-12 bg-gradient-to-tr from-white via-blue-50 to-sky-100 contact-container">
       <div className="max-w-3xl mx-auto text-center contact-title">
