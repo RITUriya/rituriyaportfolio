@@ -7,7 +7,7 @@ export const Home_Verbase =
 export const About_Me_Verbase1 =
   "Hi 👋 I’m Ritu — a frontend developer turned full-stack engineer.";
 export const About_Me_Verbase2 =
-  "With 4+ years of experience in building modern web applications, I specialize in React, Next.js, TailwindCSS, and TypeScript on the frontend, paired with Java (Spring Boot) and Node.js on the backend. I have hands-on experience deploying scalable applications on Azure Cloud, automating workflows using Azure DevOps Pipelines, and implementing CI/CD for seamless delivery.";
+  "With 7+ years of experience in building modern web applications, I specialize in React, Next.js, TailwindCSS, and TypeScript on the frontend, paired with Java (Spring Boot) and Node.js on the backend. I have hands-on experience deploying scalable applications on Azure Cloud, automating workflows using Azure DevOps Pipelines, and implementing CI/CD for seamless delivery.";
 export const About_Me_Verbase3 =
   "I began my career in manual testing, which taught me the value of precision and detail — a mindset I carry into frontend development with a strong focus on accessibility, performance optimization, and pixel-perfect UI design. I’ve led UI efforts on multiple enterprise projects, collaborated closely with cross-functional teams, and architected shared component libraries to ensure consistency and maintainability.";
 
